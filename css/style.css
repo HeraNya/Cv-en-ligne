@@ -1,0 +1,189 @@
+/* ---Taille du texte--- */
+.Tmini{
+  font-size: 8px
+}
+.Tpetit{
+  font-size: 12px
+}
+.Tmoyen{
+  font-size: 16px
+}
+.Tgrand{
+  font-size: 32px
+}
+.Tenorme{
+  font-size: 48px
+}
+.Tmajestueux{
+  font-size: 72px
+}
+.Ttitan{
+  font-size: 108px
+}
+
+/* ---Détail d'apparence--- */
+.Italique{
+  font-style: italic;
+}
+.Souligne{
+  text-decoration: underline;
+}
+.Gras{
+  font-weight: bold;
+}
+.Plafond{
+  text-decoration: overline;
+}
+.SansDeco{
+  text-decoration: none;
+}
+.Invisible{
+  display: none;
+}
+.Ombre0{
+  text-shadow: 0.1em 0.1em black
+}
+.Ombre1{
+  text-shadow: 0.3em 0.3em black
+}
+.Ombre2{
+  text-shadow: 0.5em 0.5em black
+}
+.Ombre3{
+  text-shadow: 0.7em 0.7em black
+}
+.Ombre4{
+  text-shadow: 1em 1em black
+}
+
+/* ---Couleurs--- */
+.Bleu{
+  color: blue
+}
+.Rouge{
+  color: red
+}
+.Vert{
+  color: green
+}
+.Blanc{
+  color: white
+}
+.Gris{
+  color: gray
+}
+.Noir{
+  color: black
+}
+.Orange{
+  color: orange
+}
+
+
+/* ---Spécificitées au site en question--- */
+
+body{
+  background-color: grey;
+}
+
+header{
+  width: 100%
+}
+
+header>img{
+  width: calc(100%/1);
+  height: 200px;
+  position: fixed; top: -75px;
+  display: flex;
+  order: 1
+}
+
+section{
+  text-align: center;
+  display: inline-flex;
+  width: 100%;
+  height: 500px;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+div{
+  border-radius: 10px;
+  border: solid;
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.Propos{
+  text-align: center;
+}
+
+header>fieldset>p{
+  text-align: center;
+}
+
+footer{
+  width: 100%
+}
+
+footer>p{
+  text-align: center;
+}
+
+footer>img{
+  width: calc(100%/1);
+  height: 200px;
+  position: fixed; bottom: -75px;
+  display: flex;
+  order: 1
+}
+
+/* ---CSS importé--- */
+
+.center {
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+
+#social-test {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 30px;
+  h2 {
+    color: #fff;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 100;
+  }
+  .social {
+    padding-left: 0px;
+  }
+  li {
+    color: rgba(167, 146, 129, 0.6);
+    list-style-type: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 1%;
+    border: 1px solid rgba(167, 146, 129, 0.4);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s;
+
+      color: rgba(167, 146, 129, 1);
+      border: 1px solid rgba(167, 146, 129, 1);
+    }
+  }
+
+.social:hover > li {
+  opacity: 0.5;
+}
+
+.social:hover > li:hover {
+  opacity: 1;
+}
