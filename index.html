@@ -3,16 +3,31 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>CV en ligne Michalak-Maxime</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
+
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+      <ul>
+        <li><a href="#IDPropos">À Propos</a></li>
+  <li><a href="#IDSkill">Compétences</a></li>
+  <li><a href="#IDExpFor">Expériences et Formations</a></li>
+  <li><a href="#IDPortfolio">Portfolio</a></li>
+  <li><a href="#IDContact">Contact</a></li>
+  </ul>
+  </div>
 
     <header>
 
       <img src="img/Bande.png" alt="Pellicules décoratives.">
-      
-      <div class="Propos">
+
+      <div id="IDPropos" class="Propos Section">
         <p class="Tenorme Blanc Gras">À propos de moi...</p>
         <p class="Tgrand Blanc">Créatif depuis 6 ans d'expérience,<br>je suis à la recherche d'un emploi dans le domaine du montage vidéo.</p>
 
@@ -22,14 +37,22 @@
 
     <main>
 
+      <div id="IDSkill" class="Compétences Section">
+        <p class="Tenorme Blanc Gras">Compétences:</p>
+
+        </div>
+
     </main>
 
     <footer>
 
       <img src="img/Bande.png" alt="Pellicules décoratives.">
 
-      <p class="Tenorme Blanc Gras">Contact:</p>
-      <p class="Tgrand Blanc">Tél: 06 78 06 56 10<br>Ville: Vieux-Condé<br>Mail: max.michalak@laposte.net</p>
+      <div id="IDContact" class="Contact Section">
+        <p class="Tenorme Blanc Gras">Contact:</p>
+        <p class="Tgrand Blanc">Tél: 06 78 06 56 10<br>Ville: Vieux-Condé<br>Mail: max.michalak@laposte.net</p>
+      </div>
+
 
     </footer>
 
