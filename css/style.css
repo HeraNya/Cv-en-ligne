@@ -163,6 +163,10 @@ footer>img{
   width: calc(100%/1)
 }
 
+.tab>img{
+  width: calc(70%/3)
+}
+
 
 
 /* ---CSS importé---1 */
@@ -405,7 +409,8 @@ input[type="checkbox"]{
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px){
 
-  
+
+
 }
