@@ -182,29 +182,23 @@ footer>img{
   width: 10%
 }
 
+.Pellicules{
+  position: relative;
+}
 .Pellicules>img{
-  width: 30%;
+  width: 10%;
+}
+.TR{
   position: absolute;
-}
-.P1 :first-child{
+  right: -5%;
+  transform: translate(-50%, -50%);
   transform: rotate(0.7turn);
-  top: 10%;
-  left: 5%;
 }
-.P1 :last-child{
-  transform: rotate(0.4turn);
-  top: 14%;
-  right: 5%;
-}
-.P2 :first-child{
-  transform: rotate(0.7turn);
-  top: 60%;
-  left: 5%;
-}
-.P2 :last-child{
-  transform: rotate(0.4turn);
-  top: 64%;
-  right: 5%;
+.BL{
+  position: absolute;
+  left: -5%;
+  transform: translate(-50%, -50%);
+  transform: rotate(0.35turn);
 }
 
 
