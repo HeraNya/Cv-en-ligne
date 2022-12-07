@@ -201,6 +201,25 @@ footer>img{
   transform: rotate(0.35turn);
 }
 
+.Fleche{
+  position: relative;
+  top: 20px;
+  width: 10%;
+  filter: sepia(90%);
+}
+
+.Contact>#Fleche2{
+  filter: sepia(90%);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transform: rotate(0.5turn);
+  width: 10%;
+}
+.Contact>strong{
+  display: inline-block;
+  text-align: right;
+}
+
 
 
 /* ---CSS importé---1 */
@@ -526,7 +545,7 @@ a {
 
 
 
-@media only screen and (max-width: 700px){
+@media screen and  (max-width: 700px){
 
 .Contact>a>img{
   display: inline;
