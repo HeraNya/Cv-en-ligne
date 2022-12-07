@@ -220,6 +220,11 @@ footer>img{
   text-align: right;
 }
 
+#IDPortfolio{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 
 
 /* ---CSS importé---1 */
@@ -468,7 +473,7 @@ input[type="checkbox"]{
 .card {
   border-radius: 16px;
   margin: 0 auto;
-  width: 500px;
+  width: 40%;
   max-width: 100%;
   min-height: 500px;
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
@@ -476,7 +481,7 @@ input[type="checkbox"]{
     0px 1px 14px 0px rgba(0, 0, 0, 0.12);
   overflow: hidden;
   background-image: url(../img/Bismarck.png);
-  background-position: center;
+  background-position: right;
   background-size: cover;
 }
 
@@ -526,6 +531,31 @@ input[type="checkbox"]{
   padding: 0 24px 24px;
   line-height: 1.5;
 }
+
+
+
+/* Tentative de carte alternatives pour les ajouter au bordel */
+
+.card2 {
+  border-radius: 16px;
+  margin: 0 auto;
+  width: 40%;
+  max-width: 100%;
+  min-height: 500px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  background-image: url(../img/Bismarck.png);
+  background-position: right;
+  background-size: cover;
+}
+  .card2:hover .info,
+  .card2:hover .info:before {
+    transform: translateY(0) translateZ(0);
+  }
+
+
 
 /* General layout and typography stuff */
 
