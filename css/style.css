@@ -96,7 +96,7 @@ header{
 header>img{
   width: calc(100%/1);
   height: 200px;
-  position: fixed; top: -75px;
+  position: fixed; top: -100px;
   display: flex;
   order: 1
 }
@@ -132,7 +132,7 @@ footer{
 footer>img{
   width: calc(100%/1);
   height: 200px;
-  position: fixed; bottom: -75px;
+  position: fixed; bottom: -100px;
   display: flex;
   order: 1
 }
