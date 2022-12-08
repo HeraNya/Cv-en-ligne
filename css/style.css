@@ -544,8 +544,8 @@ input[type="checkbox"]{
     0px 5px 8px 0px rgba(0, 0, 0, 0.14),
     0px 1px 14px 0px rgba(0, 0, 0, 0.12);
   overflow: hidden;
-  background-image: url(../img/Bismarck.png);
-  background-position: right;
+  background-image: url(../img/241.png);
+  background-position: center;
   background-size: cover;
 }
   .card2:hover .info,
@@ -573,11 +573,15 @@ a {
 
 
 
-@media screen and  (max-width: 700px){
+@media screen and (max-width: 700px){
 
 .Contact>a>img{
   display: inline;
   width: 30%
   }
+
+#IDPortfolio{
+  width: calc(100%/2)
+}
 
 }
