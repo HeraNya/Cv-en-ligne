@@ -203,21 +203,19 @@ footer>img{
 
 .Fleche{
   position: relative;
-  top: 20px;
+  top: 10px;
   width: 10%;
   filter: sepia(90%);
 }
 
 .Contact>#Fleche2{
   filter: sepia(90%);
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transform: rotate(0.5turn);
-  width: 10%;
+  position: relative;
+  width: 13%;
 }
 .Contact>strong{
   display: inline-block;
-  text-align: right;
+  text-align: center;
 }
 
 #IDPortfolio{
