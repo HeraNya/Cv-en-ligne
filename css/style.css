@@ -143,7 +143,6 @@ footer>img{
 }
 .Compétences{
   text-align: center;
-  margin-top: 100px;
 }
 .Expériences{
   text-align: left;
@@ -221,6 +220,10 @@ footer>img{
 #IDPortfolio{
   display: flex;
   flex-direction: row-reverse;
+}
+#NomPrenom{
+  text-align: center;
+  display: absolute;
 }
 
 
@@ -580,7 +583,8 @@ a {
   width: 30%
   }
 
-#IDPortfolio{
+#.Portfolio{
+  display: inline;
   width: calc(100%/2)
 }
 
