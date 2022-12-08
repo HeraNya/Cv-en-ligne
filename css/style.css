@@ -222,8 +222,8 @@ footer>img{
   flex-direction: row-reverse;
 }
 #NomPrenom{
-  text-align: center;
   display: absolute;
+  text-align: center;
 }
 
 
@@ -583,7 +583,7 @@ a {
   width: 30%
   }
 
-#.Portfolio{
+#Portfolio{
   display: inline;
   width: calc(100%/2)
 }
