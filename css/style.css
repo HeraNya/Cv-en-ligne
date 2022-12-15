@@ -557,20 +557,6 @@ input[type="checkbox"]{
 
 
 
-/* General layout and typography stuff */
-
-@media (min-width:800px) {
-  p {
-    font-size: 1.3em
-  }
-}
-a {
-  color: #e03616;
-  text-decoration: none
-}
-
-
-
 /* -Responsive- */
 
 
@@ -607,7 +593,6 @@ a {
   font-size: 32px;
   margin-left: 0%;
   width: 50%
-
 }
 
 }
