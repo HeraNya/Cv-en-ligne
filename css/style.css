@@ -603,5 +603,11 @@ a {
 .Fleche{
   width: 25%
 }
+.tabs label{
+  font-size: 32px;
+  margin-left: 0%;
+  width: 50%
+
+}
 
 }
