@@ -581,10 +581,27 @@ a {
   display: inline;
   width: 30%
   }
-
-#Portfolio{
-  display: inline;
-  width: calc(100%/2)
+#IDPortfolio{
+  flex-direction: column-reverse;
+}
+.Section{
+  width: 90%;
+}
+.DoubleSection{
+  display: block;
+  width: calc(100%/1)
+}
+.menu-btn{
+  position: fixed; top: 1%; right: -5%
+}
+.Carte{
+  width: 100%
+}
+.Contact>#Fleche2{
+  width: 50%
+}
+.Fleche{
+  width: 25%
 }
 
 }
