@@ -165,7 +165,8 @@ footer>img{
 }
 .DoubleSection{
   display: flex;
-  width: calc(100%/1)
+  width: calc(90%/1);
+  margin: auto;
 }
 
 .tab>img{
@@ -225,6 +226,9 @@ footer>img{
   text-align: center;
 }
 
+.tabs label{
+  font-size: 32px;
+}
 
 
 /* ---CSS importé---1 */
@@ -590,9 +594,13 @@ input[type="checkbox"]{
   width: 25%
 }
 .tabs label{
-  font-size: 32px;
+  font-size: 37px;
   margin-left: 0%;
   width: 50%
+}
+
+.tab>img{
+  width: calc(100%/3)
 }
 
 }
